@@ -5,7 +5,6 @@
 out/test/**
 node_modules/**
 docs/**
-test/**
 # files
 **/*.map
 .vscodeignore

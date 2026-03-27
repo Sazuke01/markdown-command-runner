@@ -19,7 +19,7 @@
   },
   "icon": "resources/icon-128x128.png",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.110.0"
   },
   "extensionKind": [
     "ui",
@@ -29,7 +29,7 @@
     "color": "#e3f4ff",
     "theme": "light"
   },
-  "browser": "./out/web/extension.js",
+  "browser": "./out/extension.js",
   "categories": [
     "Other"
   ],
@@ -76,6 +76,7 @@
     "lint-staged": "^16.4.0",
     "mocha": "^11.7.5",
     "prettier": "^3.8.1",
+    "tslib": "2.8.1",
     "typescript": "^6.0.2"
   },
   "lint-staged": {
