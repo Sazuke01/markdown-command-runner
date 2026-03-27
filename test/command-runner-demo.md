@@ -22,7 +22,7 @@ Try inline commands as well: run `echo Inline demo`.
 
 ## Multi-line Example
 
-```sh
+```bash
 cd ..
 pwd
 ```

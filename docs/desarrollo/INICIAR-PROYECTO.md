@@ -1,13 +1,13 @@
 # Configuraciones para iniciar el proyecto desde 0
 
-run `npm install --save-dev husky lint-staged eslint`
+run `pnpm add -D husky lint-staged eslint`
 
 ## configuración Prettier
 
 Configuración inicial en un proyecto:
 
 ```bash
-npm install --save-dev --save-exact prettier
+pnpm add -D --save-exact prettier
 node --eval "fs.writeFileSync('.prettierrc','{}\n')"
 node --eval "fs.writeFileSync('.prettierignore','# Ignore artifacts:\nbuild\ncoverage\n')"
 ```
@@ -18,5 +18,5 @@ npx npm-check-updates
 # actualiza package.json
 npx npm-check-updates -u
  # actualiza lockfile
-npm install
+pnpm install
 ```

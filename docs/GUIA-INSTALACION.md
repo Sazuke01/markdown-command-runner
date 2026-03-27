@@ -13,7 +13,7 @@ Sigue estos pasos para instalar la extensión desarrollada en Visual Studio Code
 
 3. **Instala las dependencias**
 
-   run `npm install`
+   run `pnpm install`
 
 4. **Compila la extensión**
 
@@ -22,13 +22,13 @@ Sigue estos pasos para instalar la extensión desarrollada en Visual Studio Code
 
 6. **Instala la extensión localmente**
    1. Instala el paquete de vs code para extensiones:
-      run `npm install -g vsce`
+      run `npm add -g vsce`
 
    2. Ejecuta:
 
-      ```sh
-          run `npm run compile`
-          run `vsce package`
+      ```bash
+         pnpm run compile
+         vsce package
       ```
 
    3. Instala el archivo `.vsix` generado:

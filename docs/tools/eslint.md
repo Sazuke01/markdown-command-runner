@@ -7,7 +7,7 @@
 ## Instalación básica
 
 ```
-npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+pnpm add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 ## Configuración mínima (`.eslintrc.json`)
@@ -36,7 +36,7 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 - Para evitar conflictos, instala `eslint-config-prettier` y `eslint-plugin-prettier` si usas Prettier.
 
 ```
-npm install --save-dev eslint-config-prettier eslint-plugin-prettier
+pnpm add -D eslint-config-prettier eslint-plugin-prettier
 ```
 
 Y añade en `.eslintrc.json`:

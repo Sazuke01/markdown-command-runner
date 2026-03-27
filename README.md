@@ -6,9 +6,9 @@ Añade un control **Copiar**, **Ejecutar** en línea a los bloques de código co
 
 ## ✨ Características
 
-- Detecta los bloques de código delimitados etiquetados como `shell`, `bash`, `bat`, `powershell`, `cmd` o `sh` y muestra un CodeLens de **Copiar** y **Ejecutar** encima de cada bloque.
+- Detecta los bloques de código delimitados etiquetados como `shell`, `sh`, `bash`, `bat`, `powershell` o `cmd` y muestra un CodeLens de **Copiar** y **Ejecutar** encima de cada bloque.
 
-- Reconoce instrucciones en línea como <`` run `dir C:` ``> y proporciona la copiar y ejecución con un solo clic.
+- Reconoce instrucciones en línea como `` run `dir C:` `` y proporciona la copiar y ejecución con un solo clic.
 
 - Ejecuta el comando capturado dentro de un terminal integrado de VS Code, manteniendo la salida junto a tu Markdown.
 

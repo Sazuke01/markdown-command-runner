@@ -38,6 +38,7 @@ npm install --save-dev prettier
 ## Notas
 
 - `depcheck` puede marcar `prettier` como no usado si sólo lo ejecutas desde scripts o hooks; eso no significa que no sea útil. Revisa el uso en `package.json` y hooks antes de desinstalar.
+  pnpm add -D prettier
 
 ## Ignorar archivos (`.prettierignore`)
 
@@ -46,21 +47,23 @@ Ejemplo para ignorar build, node_modules y archivos generados:
 ```
 node_modules
 out
-dist
+pnpm dlx husky add .husky/pre-commit "pnpm run format:check || (pnpm run format && git add -A)"
 *.min.js
 ```
 
 ## Uso por archivo
 
-- Markdown (`.md`): formatea bloques de código y el texto plano; útil para documentación y `test` fixtures.
+pnpm dlx husky add .husky/pre-commit "pnpm run format && git add -A"
+
 - JSON (`.json`): Prettier formatea con indentación consistente (útil para `package.json`, configuraciones, lock files no cambiados por lock).
 - YAML (`.yaml`): Prettier soporta YAML y mantiene la sintaxis sensata (espacios, guiones).
 - TypeScript (`.ts`): combina bien con ESLint; usa `--write` en hooks para evitar commits con formato incorrecto.
 
 ## Integración con editores
 
-- Habilita "Format on Save" en VS Code o configura el formateador por defecto a Prettier.
-- Extensión recomendada: Prettier - Code formatter.
+pnpm run format # formatea los archivos
+pnpm run format:check # comprueba si hay archivos sin formatear
+pnpm dlx prettier --write file.md
 
 ## Integración con Husky (hooks Git)
 

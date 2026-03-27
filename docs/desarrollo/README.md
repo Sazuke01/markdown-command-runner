@@ -9,8 +9,8 @@ This guide describes how to exercise the Markdown Command Runner extension while
 
 ## Build and Watch
 
-1. Install dependencies: run `npm install`.
-2. Start the TypeScript compiler in watch mode: run `npm run compile`.
+1. Install dependencies: run `pnpm install`.
+2. Start the TypeScript compiler in watch mode: run `pnpm run compile`.
 3. Leave the watch task running so the emitted JavaScript stays fresh while you edit.
 
 ## Launch the Extension Host
@@ -21,7 +21,7 @@ This guide describes how to exercise the Markdown Command Runner extension while
 ## Manual Testing Checklist
 
 - Open `test/command-runner-demo.md` to see ready-made snippets.
-- Confirm that fenced blocks annotated with `bash`, `sh`, `cmd`, `bat`, `powershell`, or `shell` show an **Ejecutar** CodeLens.
+- Confirm that fenced blocks annotated with `bash`, `bash`, `cmd`, `bat`, `powershell`, or `shell` show an **Ejecutar** CodeLens.
 - Click **Ejecutar** and verify that a terminal named **Markdown Command Runner** appears with the command output.
 - Ensure multi-line blocks execute each line in order without extra blank lines.
 - Confirm inline patterns such as `run \`echo Inline demo\`` display the CodeLens and execute correctly.
@@ -36,4 +36,4 @@ This guide describes how to exercise the Markdown Command Runner extension while
 ## Finishing Up
 
 - Stop the watch task with `Ctrl+C` when you are done.
-- Run `npm run compile` once more before packaging to ensure a clean build output.
+- Run `pnpm run compile` once more before packaging to ensure a clean build output.

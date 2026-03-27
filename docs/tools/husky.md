@@ -8,14 +8,14 @@
 
 1. Instalar como dependencia de desarrollo:
 
-   ```sh
-   npm install --save-dev husky
+   ```bash
+   pnpm add -D husky
    ```
 
 2. Activar Husky en el repositorio (solo la primera vez):
 
-   ```sh
-   npx husky install
+   ```bash
+   pnpm dlx husky install
    ```
 
 3. Añadir script en `package.json` (opcional):
@@ -30,17 +30,17 @@
 
 Ejemplo: pre-commit para ejecutar ESLint y Prettier:
 
-```sh
-npx husky add .husky/pre-commit "npm run lint && npm run format:check"
+```bash
+pnpm dlx husky add .husky/pre-commit "pnpm run lint && pnpm run format:check"
 ```
 
 Contenido del hook ejecutable (`.husky/pre-commit`):
 
-```sh
+```bash
 #!/bin/sh
 . "$(dirname \"$0\")/_/husky.sh"
-npm run lint
-npm run format:check
+pnpm run lint
+pnpm run format:check
 ```
 
 ## Recomendaciones
