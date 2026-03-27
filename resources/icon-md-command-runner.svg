@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs id="defs1">
+    <linearGradient id="gradient-2" bx:pinned="true">
+      <stop offset="0" style="stop-color: rgb(125, 255, 203);"/>
+      <stop offset="0.463" style="stop-color: rgb(78, 255, 184);"/>
+      <stop offset="1" style="stop-color: rgb(1, 241, 143);"/>
+    </linearGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="164.203" cy="90.399" r="49.8" id="gradient-4">
+      <stop offset="0" style="stop-color: rgb(100% 100% 100%)"/>
+      <stop offset="1" style="stop-color: rgb(56.687% 56.687% 56.687%)"/>
+    </radialGradient>
+  </defs>
+  <g transform="matrix(0.270805, 0, 0, 0.270805, 5.099903, 33.619961)" style="">
+    <title>MD-command-runner</title>
+    <g style="" transform="matrix(0.976563, 0, 0, 0.976563, 5.09754, 2.631392)">
+      <title>base</title>
+      <rect x="-16.942" y="-122.26" width="468.884" height="468.884" style="fill: rgb(23, 23, 23); stroke-opacity: 0.5; stroke: rgb(144, 144, 144); paint-order: stroke; stroke-width: 10.9895px;" rx="27.474" ry="27.474"/>
+    </g>
+    <g transform="matrix(-1.135062, 0, 0, 1.135062, 645.407969, -11.78788)" style="">
+      <title>face</title>
+      <g style="">
+        <title>cabeza</title>
+        <g style="" transform="matrix(-0.799997, 0, 0, 1, 518.734505, -0.18821)">
+          <title>Execute</title>
+          <path d="M 386.535 137.243 Q 405.285 101.528 424.035 137.243 L 461.535 208.672 Q 480.285 244.386 442.785 244.386 L 367.785 244.386 Q 330.285 244.386 349.035 208.672 Z" bx:shape="triangle 330.285 101.528 150 142.858 0.5 0.25 1@f5964cde" style="stroke-linecap: round; stroke-linejoin: round; stroke: rgb(114, 114, 114); stroke-opacity: 0.5; transform-origin: 405.285px 181.885px; fill: rgb(0, 255, 153); stroke-width: 0px;" transform="matrix(0, 1, -1, 0, -50.071022, -82.532307)"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 1.613638, 6.45454)" style="">
+          <title>barra</title>
+          <path style="fill: rgb(216, 216, 216); stroke-width: 10; stroke: rgb(204, 204, 204);" d="M 383.618 23.22 L 338.618 23.22"/>
+          <path style="fill: rgb(216, 216, 216); stroke-width: 10px; stroke: rgb(153, 153, 153); transform-box: fill-box; transform-origin: 50% 50%;" d="M 339.018 23.22 L 289.018 23.22"/>
+          <path style="fill: rgb(216, 216, 216); stroke-width: 10; stroke: rgb(102, 102, 102);" d="M 289.444 23.22 L 239.418 23.22"/>
+          <path style="fill: rgb(216, 216, 216); stroke-width: 10; stroke: rgb(51, 51, 51);" d="M 184.418 23.22 L 239.418 23.22"/>
+        </g>
+        <path style="fill: none; stroke: rgb(114, 114, 114); stroke-opacity: 0.5; transform-box: fill-box; transform-origin: 50% 50%; stroke-width: 16.1363px;" d="M 391.032 17.22 L 186.032 17.22 L 211.032 201.22 L 416.032 201.22" transform="matrix(-1, 0, 0, -1, 0.000016, -0.000022)">
+          <title>marco</title>
+        </path>
+      </g>
+      <text style="fill: url(&quot;#gradient-4&quot;); fill-opacity: 0.75; font-family: Arial, sans-serif; font-size: 28px; font-style: italic; font-weight: 700; letter-spacing: -1px; stroke: rgb(120, 120, 120); stroke-opacity: 0.5; stroke-width: 0px; white-space: pre; transform-origin: 198.142px 106.022px;" transform="matrix(-3.582563, 0, 0, 4.804478, 71.275827, 70.198815)" x="114.403" y="100.093">MD &gt;_&lt;</text>
+    </g>
+  </g>
+</svg>
