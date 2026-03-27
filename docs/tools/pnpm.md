@@ -107,7 +107,7 @@ pnpm why <paquete>
 pnpm -w run build   # -w = workspace
 ```
 
-- Ejecutar recursivamente en subpaquetes:
+- Ejecutar recursivamente en sub-paquetes:
 
 ```bash
 pnpm -r run test

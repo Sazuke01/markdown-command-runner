@@ -17,6 +17,7 @@ ignorePaths:
   # other
   - 'docs/PROJECT-STRUCTURE.txt'
   - '**.svg**'
+  - 'pnpm-lock.yaml'
 
 dictionaryDefinitions:
   - name: 'project-words'

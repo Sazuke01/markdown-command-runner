@@ -18,33 +18,20 @@
    pnpm dlx husky install
    ```
 
-3. Añadir script en `package.json` (opcional):
+## Añadir hooks
+
+Ejemplo común (este repositorio): usar `lint-staged` en el hook `pre-commit`.
+
+1. Configura `lint-staged` en `package.json`:
 
    ```json
-   "scripts": {
-   "prepare": "husky install"
+   "lint-staged": {
+   "*.{ts,json,jsonc,md,yaml}": "prettier --write --experimental-cli --cache"
    }
    ```
 
-## Añadir hooks
+2. Agregar el comando pre-commit
 
-Ejemplo: pre-commit para ejecutar ESLint y Prettier:
-
-```bash
-pnpm dlx husky add .husky/pre-commit "pnpm run lint && pnpm run format:check"
-```
-
-Contenido del hook ejecutable (`.husky/pre-commit`):
-
-```bash
-#!/bin/sh
-. "$(dirname \"$0\")/_/husky.sh"
-pnpm run lint
-pnpm run format:check
-```
-
-## Recomendaciones
-
-- Mantén Husky en `devDependencies`.
-- Los hooks requieren que el repositorio tenga Git inicializado.
-- Usa scripts `lint`, `format` y `format:check` en `package.json` para estandarizar los comandos.
+   ```pre-commit
+   lint-staged
+   ```
