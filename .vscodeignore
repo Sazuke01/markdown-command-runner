@@ -1,0 +1,17 @@
+# Que ignorará VS Code al empaquetar la extensión
+# Folders
+.github/**
+.vscode/**
+out/test/**
+node_modules/**
+docs/**
+test/**
+# files
+**/*.map
+.vscodeignore
+.gitignore
+.prettierrc
+CHANGELOG.md
+# Others
+.dictionaries/**
+.tools/**
