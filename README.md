@@ -23,3 +23,5 @@ Añade un control **Copiar**, **Ejecutar** en línea a los bloques de código co
 - El terminal respeta el modelo de confianza de VS Code y no se activará en espacios de trabajo no confiables.
 
 ## 📄 Licencia MIT
+
+MIT License - see [LiCENSE](LICENSE.md) for more details.

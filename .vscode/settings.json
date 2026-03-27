@@ -15,5 +15,8 @@
   },
   "typescript.preferences.importModuleSpecifier": "project-relative",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "chat.useAgentsMdFile": true
+  "chat.useAgentsMdFile": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
