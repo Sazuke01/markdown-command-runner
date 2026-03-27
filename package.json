@@ -14,9 +14,6 @@
     "url": "https://github.com/Sazuke01/markdown-command-runner"
   },
   "bugs": "https://github.com/Sazuke01/markdown-command-runner/issues",
-  "sponsor": {
-    "url": "https://github.com/sponsors/Sazuke01"
-  },
   "icon": "resources/icon-128x128.png",
   "engines": {
     "vscode": "^1.110.0"

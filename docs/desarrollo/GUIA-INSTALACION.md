@@ -18,11 +18,14 @@ Sigue estos pasos para instalar la extensión desarrollada en Visual Studio Code
    2. Ejecuta:
 
       ```bash
-         pnpm run compile
-         vsce package
+      pnpm run compile
+      vsce package
       ```
 
-   3. Instala el archivo `.vsix` generado:
-      Ve a `Extensiones > ... > Instalar desde VSIX...` y selecciona el archivo.
+```
+
+3.  Instala el archivo `.vsix` generado:
+    Ve a `Extensiones > ... > Instalar desde VSIX...` y selecciona el archivo.
 
 ¡Listo! Ahora puedes usar la extensión en Visual Studio Code.
+```
